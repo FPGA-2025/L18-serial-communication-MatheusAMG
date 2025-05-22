@@ -27,7 +27,7 @@ parameter [3:0] S0  = 4'b0000, // Idle
                 S6  = 4'b0110, // Enviar bit 4
                 S7  = 4'b0111, // Enviar bit 5
                 S8  = 4'b1000, // Enviar bit 6
-                S9  = 4'b1001, // Enviar bit Paridade
+                S9  = 4'b1001; // Enviar bit Paridade
 
 always @(posedge clk, negedge rstn) begin
     if (~rstn) begin
