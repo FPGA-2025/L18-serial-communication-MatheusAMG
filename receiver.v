@@ -7,6 +7,6 @@ module receiver (
     input serial_in
 );
 
-//insira seu código aqui
+
 
 endmodule
